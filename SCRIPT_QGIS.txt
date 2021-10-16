@@ -1,0 +1,30 @@
+selectsoil_1 = [Bleach-ferric, Bleached-Ferric, Bleached, Deep sandy topsoil (dunes and ri, Sandy topsoil]
+
+fn = 'C:/temp/outputs/VegetableFruit_land
+writer = QgsVectorFileWriter.writeAsVectorFormat(layer, fn, 'Input Soil layer', \driverName='ESRI Shapefile', selectsoil_1=True)
+
+selected_layer = iface.addVectorLayer(fn, '', 'ogr')
+
+
+selectsoil_2 = [petroferric, Petrocalcic (Crests and upper sl, petroferric, Hypercalcic, Endohypersodic]
+
+fn = 'C:/temp/outputs/CerealCropping_land
+writer = QgsVectorFileWriter.writeAsVectorFormat(layer, fn, 'Input Soil layer', \driverName='ESRI Shapefile', selectsoil_2=True)
+
+selected_layer = iface.addVectorLayer(fn, '', 'ogr')
+
+
+selectsoil_3 = [Mottled-subnatric, Mottled-Sodic, Mottled-mesonatric  (slight rise, Mottled-mesonatric, Mottled-Mesonatric]
+
+fn = 'C:/temp/outputs/OrnamentalCrop_land
+writer = QgsVectorFileWriter.writeAsVectorFormat(layer, fn, 'Input Soil layer', \driverName='ESRI Shapefile', selectsoil_3=True)
+
+selected_layer = iface.addVectorLayer(fn, '', 'ogr')
+
+
+selectsoil_4 = [Bleached-Mottled, Humosesquic, Friable]
+
+fn = 'C:/temp/outputs/Grazing_land
+writer = QgsVectorFileWriter.writeAsVectorFormat(layer, fn, 'Input Soil layer', \driverName='ESRI Shapefile', selectsoil_3=True)
+
+selected_layer = iface.addVectorLayer(fn, '', 'ogr')

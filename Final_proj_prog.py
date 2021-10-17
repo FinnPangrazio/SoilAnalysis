@@ -10,7 +10,7 @@ vegdict = {"1":"Vegetable and Fruits",
 
 #Create Soil Type class and innitialising the subgroup of 'purpose' 
 class Soil_Type:
-    def __innit__(purpose):
+    def __init__(purpose):
     
 #Categorise the soils and their primary use
 if SUBSCRPT == 'Bleached_Ferric':

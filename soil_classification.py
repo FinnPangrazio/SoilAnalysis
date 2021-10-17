@@ -1,10 +1,8 @@
+#Importing all of the necessary prompts which will be used in the program
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.core import (QgsProcessing,
-                       QgsFeatureSink,
                        QgsProcessingException,
-                       QgsProcessingAlgorithm,
-                       QgsProcessingParameterFeatureSource,
-                       QgsProcessingParameterFeatureSink)
+                       QgsProcessingAlgorithm)
 from qgis.core import QgsExpression
 from qgis.core import os
 from qgis import processing

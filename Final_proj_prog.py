@@ -8,7 +8,7 @@ vegdict = {"1":"Vegetable and Fruits",
            "3":"Ornamental Crops",
            "4":"Grazing"}
 
-#Create Soil Type class and innitialising the subgroup of 'purpose' 
+#Create Soil Type class and innitialising the attribute of 'purpose' 
 class Soil_Type:
     def __init__(purpose):
     
